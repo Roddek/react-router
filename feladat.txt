@@ -1,0 +1,13 @@
+Kutyák adminisztrációjára egy egyszerű, csak frontend adattárolást megvalósító rendszer, ahol 1 Card egy kutya. Hozzá tudok adni új kutyát (név + kép url), illetve törölni is tudok.
+
+2 route:
+- összes kutya listázása - kártyák egymás mellett
+    - kártyákon törlés gomb
+    (- módosítás gomb is)
+- hozzáadás - listázás alatt gomb ide navigál
+    - form - 2 field: név és kép url
+    - mentés -> másik screenen új kártya megjelenik
+(- módosítás - field-ekbe bekerül az adott kutya neve és a kép url-je
+    - mentés -> lista oldal frissítése)
+
+Backend nem kell, zárójales részek nem kötelezőeka
